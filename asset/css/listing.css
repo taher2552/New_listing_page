@@ -137,6 +137,44 @@ padding: 0.3rem 0.5rem;
 border-radius: 0.3125rem;
 color:#fff;
 font-family: DM Sans;
-margin-top: 1rem;
 width: max-content;
+}
+
+.fb_stars {
+  --mobile_academy_percent: calc(var(--star_rating) / 5 * 100%);
+  display: inline-block;
+  font-size: 25px;
+  font-family: Times;
+  line-height: 1;
+  margin-left: 0.5rem;
+  margin-right: 0.3rem;
+}
+
+.fb_stars::before {
+  content: "★★★★★";
+  letter-spacing: 3px;
+  background: linear-gradient(
+    90deg,
+    #fc0 var(--mobile_academy_percent),
+    #dcdcdc var(--mobile_academy_percent)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fb_star_section{
+  margin-top: 1rem;
+}
+
+.fb_flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:0.5rem;
+}
+
+.total_ratings{
+  color: #acacac;
+  font-size: 1rem;
 }
