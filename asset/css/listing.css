@@ -251,6 +251,10 @@ ul {
   gap: 1rem;
 }
 
+.gap{
+  margin-bottom: 1rem;
+}
+
 
 @media only screen and (max-width:1270px) {
   .list_top h2 {
