@@ -178,3 +178,34 @@ width: max-content;
   color: #acacac;
   font-size: 1rem;
 }
+
+.list_location{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap:0.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.list_location img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.extra_info{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap:0.5rem;
+  margin-top: 1rem;
+}
+
+.extra_sport{
+  background-color: #f5ebeb;
+  color: #626060;
+  padding: 0.35rem;
+  border-radius: 0.3125rem;
+  width: auto;
+  font-size: 0.75rem;
+}
